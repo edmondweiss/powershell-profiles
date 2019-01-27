@@ -5,7 +5,7 @@ param(
 
   [Parameter()]
   [String]
-  $Destination = $PROFILE.currentUserAllHosts,
+  $Destination = (Split-Path $PROFILE.currentUserAllHosts -Parent),
 
   [Parameter()]
   [String]
