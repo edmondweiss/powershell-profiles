@@ -1,5 +1,8 @@
-Set-Variable -Name HOME -Value 'C:\edmond' -Force
+Import-Module PSReadLine
+Import-Module PowerShellGet
+Import-Module posh-git
 
+Set-Variable -Name HOME -Value 'C:\edmond' -Force
 Set-Location $HOME
 
 Set-Alias -Name gh -Value Get-Help -Option AllScope
