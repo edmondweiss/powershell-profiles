@@ -1,5 +1,4 @@
 Import-Module PSReadLine
-Import-Module PowerShellGet
 Import-Module posh-git
 
 Set-Variable -Name HOME -Value 'C:\edmond' -Force
