@@ -1,8 +1,8 @@
+New-Variable -Name PROJECTS -Value 'C:\work\projects' -Option ReadOnly
 Set-Variable -Name HOME -Value 'C:\work' -Force
 Set-Location $HOME
 
 Import-Module PSReadLine
-Import-Module PowerShellGet
 Import-Module posh-git
 
 Set-Alias -Name gh -Value Get-Help
